@@ -1,0 +1,46 @@
+.footer{
+    padding-top: 50px; margin-top:1000px;position: fixed;
+bottom: 0; width: 100%; border-top: 10px "dotted" transparent; border-top-left-radius: 100px;border-top-right-radius: 100px;
+    text-align: center;
+height :100px;
+    background-color: rgb(205, 203, 255); z-index: 0;
+}
+body {
+    background-color: aqua;
+}
+h1{
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+h4{
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#camera{
+    height: 400px;width: 500px;border: 10cm "dashed" red;
+}
+img{
+    height: 300px; width: 600px;
+}
+.columna {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .resultRow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #result1{
+    margin-left: 10%;
+  } #result2{
+    margin-bottom: 1%;
+  }
+ .column img:hover{
+    border: 10px dashed white;
+  }
